@@ -2,7 +2,7 @@ function sendApiRequest(){
     const userInput = document.getElementById('input').value
     console.log(userInput)
     const API_KEY = '6d2JEoEClUYde0yyLKRpbUjXFBI8t5mL'
-    const giphyApiUrl = `http://api.giphy.com/v1/gifs/search?q=${userInput}&rating=g&api_key=${API_KEY}&limit=5`
+    const giphyApiUrl = `https://api.giphy.com/v1/gifs/search?q=${userInput}&rating=g&api_key=${API_KEY}&limit=5`
     fetch(giphyApiUrl).then(function(data) {
         return data.json()
     })
