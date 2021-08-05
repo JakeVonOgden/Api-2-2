@@ -1,0 +1,32 @@
+body
+{
+    background-color: rgb(20,20,20)
+}
+h1
+{
+    text-align: center;
+    padding: 25px;
+    color: crimson;
+}
+.form
+{
+    text-align: center;
+    padding: 25px;
+}
+input
+{
+    border-color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 22px;
+}
+button
+{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    border-color: red;
+    background-color: rgb(10,10,10);
+    color: crimson;
+}
